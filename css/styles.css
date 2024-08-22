@@ -79,7 +79,7 @@ body {
 
 .menu {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
 }
 .page-logo {
     font-family: "Raleway", sans-serif;
@@ -105,6 +105,7 @@ body {
     color: #2e2f42;
     padding-top: 24px;
     padding-bottom: 24px;
+    gap: 40px;
 }
 
 .menu-link:hover,
@@ -119,6 +120,7 @@ body {
 .contacts-list {
     display: flex;
     column-gap: 40px;
+    margin-right: 0;
 }
 .contacts-link {
     display: block;
@@ -140,7 +142,7 @@ body {
 /* #region Hero */
 .page-hero-container {
 padding-top: 188px;
-padding-bottom: 292px;
+padding-bottom: 188px;
 padding-right: 331px;
 padding-left: 331px;
 }
@@ -192,15 +194,18 @@ padding-left: 331px;
 
 .menu-page-benefits {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     align-items: flex-start;
     justify-content: center;
 }
 
 .menu-item-benefits {
     width: calc((100% - 72px) / 4);
+    margin-right: 24px;
 }
-
+.menu-item-benefits-last {
+    margin-right: 0;
+}
 .title-our-benefits {
     font-weight: 500;
     font-size: 20px;
@@ -225,13 +230,15 @@ padding-left: 331px;
 }
 
 .div-our-team {
-padding: 16px 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 .menu-page-team {
     display: flex;
     align-items: flex-start;
     justify-content: center;
     column-gap: 24px;
+    border-radius: 0 0 4px 4px;
 }
 
 .menu-item-team {
@@ -335,6 +342,8 @@ padding: 32px 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .span-color {
@@ -343,7 +352,6 @@ padding: 32px 16px;
 
 .text-footer {
     max-width: 264px;
-    margin-top: 15px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
