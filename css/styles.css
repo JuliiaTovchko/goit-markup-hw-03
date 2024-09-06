@@ -66,12 +66,15 @@ body {
 }
 
 /* #region Header */
+.page-header{
+    border-bottom: 1px solid #e7e9fc;
+} 
 .page-header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
 }
+    
 .page-nav {
     display: flex;
     align-items: center;
@@ -141,8 +144,7 @@ body {
 
 /* #region Hero */
 .page-hero-container {
-padding-top: 188px;
-padding-bottom: 188px;
+padding: 188px 0 188px;
 padding-right: 331px;
 padding-left: 331px;
 }
