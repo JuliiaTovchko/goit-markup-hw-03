@@ -205,9 +205,8 @@ padding-left: 331px;
 }
 
 .menu-item-benefits {
-    width: calc((100% - 72px) / 4);
-    margin-right: 24px;
-}
+    width: calc((100% - 72px) / 4)
+    }
 
 .title-our-benefits {
     font-weight: 500;
@@ -240,7 +239,7 @@ padding-left: 331px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    column-gap: 24px;
+    gap: 24px;
     border-radius: 0 0 4px 4px;
 }
 
