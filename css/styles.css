@@ -122,7 +122,7 @@ body {
 
 .contacts-list {
     display: flex;
-    column-gap: 40px;
+    gap: 40px;
     margin-right: 0;
 }
 .contacts-link {
@@ -133,6 +133,7 @@ body {
     letter-spacing: 0.02em;
     padding-top: 24px;
     padding-bottom: 24px;
+    gap: 40px;
 }
 
 .contacts-link:hover,
