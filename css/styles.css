@@ -244,6 +244,7 @@ padding-left: 331px;
 }
 
 .menu-item-team {
+    border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF
     calc((100% - 72) / 4) 
 }
