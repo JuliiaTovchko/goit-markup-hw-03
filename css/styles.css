@@ -144,8 +144,10 @@ body {
 /* #endregion Header */
 
 /* #region Hero */
-.page-hero-container {
+.page-hero {
 padding: 188px 0 188px;
+} 
+.page-hero-container {
 padding-right: 331px;
 padding-left: 331px;
 }
@@ -206,9 +208,7 @@ padding-left: 331px;
     width: calc((100% - 72px) / 4);
     margin-right: 24px;
 }
-.menu-item-benefits-last {
-    margin-right: 0;
-}
+
 .title-our-benefits {
     font-weight: 500;
     font-size: 20px;
